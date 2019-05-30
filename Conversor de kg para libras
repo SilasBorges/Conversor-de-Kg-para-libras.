@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+    float ql, libras;
+
+    printf("Convesao de KG para libras \n");
+    printf("Digite o valor em KG:\n");
+    scanf("%f", &ql);
+
+    libras = ql / 0.45;
+
+    printf("O valor em libras eh :\n %2.f", libras);
+
+    return 0;
+}
